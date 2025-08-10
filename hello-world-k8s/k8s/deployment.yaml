@@ -17,5 +17,3 @@ spec:
         image: gaelherbrecht/hello-world-app:latest
         ports:
         - containerPort: 80
-      imagePullSecrets:
-      - name: dockerhub-secret
